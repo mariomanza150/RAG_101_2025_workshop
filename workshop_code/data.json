@@ -1,0 +1,869 @@
+{
+  "sample_embeddings": [
+    {
+      "id": "1",
+      "text": "The sky appears blue because of Rayleigh scattering: as sunlight passes through the atmosphere, shorter (blue) wavelengths are scattered more than longer (red) wavelengths, giving the sky its blue hue.",
+      "source": "science"
+    },
+    {
+      "id": "2",
+      "text": "The inauguration of Donald Trump as the 47th president of the United States took place on Monday, January 20, 2025.",
+      "source": "politics"
+    },
+    {
+      "id": "3",
+      "text": "ClickIT is a technology company led by CEO and founder Alfonso Valdes. Under his leadership, the company has focused on innovation and strategic growth, and more recently has pivoted to take an important part of the US and Mexico Ai stage.",
+      "source": "business"
+    },
+    {
+      "id": "4",
+      "text": "Repairing a CX50 micro unicorn fun core requires strict adherence to technical and safety protocols. The repair process typically involves isolating the fun, diagnosing the core issue, and replacing or repairing damaged components as detailed in the official engineering manuals.",
+      "source": "technology"
+    },
+    {
+      "id": "5",
+      "text": "Regular cardiovascular exercise helps reduce the risk of heart disease. Simple routines like brisk walking or swimming can bring significant health benefits.",
+      "source": "health"
+    },
+    {
+      "id": "6",
+      "text": "Stock markets rallied this week after several major companies reported better-than-expected quarterly earnings. Investors remain wary, however, as inflationary pressures continue to shape economic forecasts.",
+      "source": "business"
+    },
+    {
+      "id": "7",
+      "text": "A highly anticipated fantasy sequel broke box office records this weekend, captivating audiences with stunning visual effects and an enthralling storyline. Critics praise its imaginative world-building and fresh approach to the genre.",
+      "source": "arts"
+    },
+    {
+      "id": "8",
+      "text": "The team\u00e2\u20ac\u2122s star quarterback delivered an exceptional performance in last night\u00e2\u20ac\u2122s game, leading to a narrow but crucial victory. Analysts agree that consistency and defensive discipline will be key to maintaining their winning streak.",
+      "source": "sports"
+    },
+    {
+      "id": "9",
+      "text": "Santorini\u00e2\u20ac\u2122s iconic white-washed villages and breathtaking caldera views make it a top Mediterranean destination. Visitors can explore ancient ruins, sample local wines, and enjoy romantic sunsets along the cliffs.",
+      "source": "travel"
+    },
+    {
+      "id": "10",
+      "text": "This hearty lentil soup combines aromatic spices with fresh vegetables for a comforting winter meal. Pair it with crusty bread and a drizzle of olive oil to elevate the flavor.",
+      "source": "food"
+    },
+    {
+      "id": "11",
+      "text": "During the Middle Ages, knights were bound by a code of chivalry that emphasized honor, bravery, and loyalty. This set of ideals also influenced the cultural and literary traditions of the era.",
+      "source": "history"
+    },
+    {
+      "id": "12",
+      "text": "The latest lineup of 4K televisions showcases ultra-thin bezels, high contrast ratios, and AI-enhanced upscaling for improved image quality. Many models also feature voice-activated controls for a more seamless user experience.",
+      "source": "technology"
+    },
+    {
+      "id": "13",
+      "text": "Ancient Greek city-states, known as poleis, were highly independent and developed unique political systems, contributing significantly to Western political thought.",
+      "source": "history"
+    },
+    {
+      "id": "14",
+      "text": "Rising sea levels and warmer ocean temperatures are prompting coastal cities to invest heavily in protective infrastructure. Environmental experts warn that immediate action is needed to mitigate the most severe impacts of climate change.",
+      "source": "science"
+    },
+    {
+      "id": "15",
+      "text": "A vibrant kale salad topped with roasted walnuts and a tangy lemon dressing can be both nutritious and flavorful. The contrasting textures make for a satisfying, health-conscious meal.",
+      "source": "food"
+    },
+    {
+      "id": "16",
+      "text": "This year\u00e2\u20ac\u2122s contemporary art exhibition features immersive installations that challenge the viewer's perception of space. Local artists collaborated to create interactive pieces, turning the gallery into a dynamic experience.",
+      "source": "arts"
+    },
+    {
+      "id": "17",
+      "text": "Global economic forecasts indicate cautious optimism, with emerging markets showing signs of robust growth. Analysts cite technological advancements and expanding middle classes as key drivers of this positive trend.",
+      "source": "business"
+    },
+    {
+      "id": "18",
+      "text": "This season\u00e2\u20ac\u2122s runway highlights a resurgence of retro patterns and oversized silhouettes. Designers are experimenting with bold color combinations to make a statement in streetwear and high fashion alike.",
+      "source": "arts"
+    },
+    {
+      "id": "19",
+      "text": "The latest album from a rising indie band blends nostalgic synthesizers with modern pop hooks. Critics praise its atmospheric soundscapes and introspective lyrics.",
+      "source": "arts"
+    },
+    {
+      "id": "20",
+      "text": "Social media platforms continue to shape public discourse, amplifying grassroots activism while also spreading misinformation. Researchers suggest enhanced media literacy programs could help communities better navigate the digital landscape.",
+      "source": "politics"
+    },
+    {
+      "id": "21",
+      "text": "Recent studies show that project-based learning encourages creativity and deeper understanding among students. Classroom activities focusing on real-world problems can boost engagement and academic performance.",
+      "source": "education"
+    },
+    {
+      "id": "22",
+      "text": "NASA\u00e2\u20ac\u2122s latest rover successfully landed on Mars, equipped with advanced instruments to analyze soil composition and search for signs of past microbial life. Scientists are especially eager to explore previously inaccessible terrain with its cutting-edge drilling system.",
+      "source": "technology"
+    },
+    {
+      "id": "23",
+      "text": "A major tech company recently revealed a significant data breach that exposed millions of user accounts. Security experts recommend enabling two-factor authentication and updating passwords to reduce potential risks.",
+      "source": "technology"
+    },
+    {
+      "id": "24",
+      "text": "Researchers have developed a new surgical method that uses genetically modified cells to repair damaged spinal tissue. Early trials indicate promising recovery rates for patients with severe injuries.",
+      "source": "health"
+    },
+    {
+      "id": "25",
+      "text": "Studies suggest practicing mindfulness may help manage anxiety by training the mind to focus on the present moment. This approach fosters emotional resilience and a stronger sense of well-being.",
+      "source": "health"
+    },
+    {
+      "id": "26",
+      "text": "Conservationists have introduced artificial reefs to boost marine biodiversity and protect coastal areas from erosion. Early findings show a steady increase in fish and coral populations in these zones.",
+      "source": "science"
+    },
+    {
+      "id": "27",
+      "text": "A new wave of collaborative robots, or cobots, is transforming factories by working alongside human operators. Improved machine vision and AI-driven controls allow these robots to adapt quickly to changing tasks.",
+      "source": "technology"
+    },
+    {
+      "id": "28",
+      "text": "Cryptocurrency traders experienced sharp market swings following global regulatory announcements. Analysts advise maintaining a long-term perspective and diversifying assets to hedge against volatility.",
+      "source": "business"
+    },
+    {
+      "id": "29",
+      "text": "Debates in Congress this week highlighted differing views on tax reform, with some lawmakers arguing for simplified brackets while others push for expanded social programs.",
+      "source": "politics"
+    },
+    {
+      "id": "30",
+      "text": "The underdog basketball team surprised fans with a late comeback in the final quarter, securing a spot in the playoffs against all odds.",
+      "source": "sports"
+    },
+    {
+      "id": "31",
+      "text": "A journey through Japan\u00e2\u20ac\u2122s countryside reveals lush rice paddies, ancient temples, and traditional hot springs. Many travelers find the serene landscapes and local hospitality unforgettable.",
+      "source": "travel"
+    },
+    {
+      "id": "32",
+      "text": "A homemade pesto pasta dish can be quickly elevated by adding roasted cherry tomatoes and fresh mozzarella. This simple recipe showcases the vibrant flavors of basil and garlic.",
+      "source": "food"
+    },
+    {
+      "id": "33",
+      "text": "A newly released album by a veteran rock band blends nostalgic guitar riffs with contemporary electronic beats. Fans are calling it a fresh take on the group's signature sound.",
+      "source": "arts"
+    },
+    {
+      "id": "34",
+      "text": "Researchers studying coral reefs discovered that rapid warming episodes adversely affect coral spawning cycles. They recommend stricter marine protections to preserve biodiversity hotspots.",
+      "source": "science"
+    },
+    {
+      "id": "35",
+      "text": "Engineers are refining machine learning algorithms that enable collaborative robots to learn from human feedback. This development aims to improve safety and efficiency in automated assembly lines.",
+      "source": "technology"
+    },
+    {
+      "id": "36",
+      "text": "Strong indicators of consumer spending and industrial output have boosted confidence in global markets this quarter, signaling a potential uptick in economic growth despite earlier uncertainties.",
+      "source": "business"
+    },
+    {
+      "id": "37",
+      "text": "Researchers have discovered a new exoplanet within the habitable zone, raising possibilities of extraterrestrial life.",
+      "source": "science"
+    },
+    {
+      "id": "38",
+      "text": "A recent report highlights the rapid decline of global bee populations and its impact on agriculture.",
+      "source": "science"
+    },
+    {
+      "id": "39",
+      "text": "International leaders gathered to discuss new climate policies aiming to cut carbon emissions by 50% by 2030.",
+      "source": "politics"
+    },
+    {
+      "id": "40",
+      "text": "A groundbreaking artificial intelligence model is now capable of generating complex medical diagnoses with high accuracy.",
+      "source": "technology"
+    },
+    {
+      "id": "41",
+      "text": "Stock markets surged today as tech companies reported record-breaking quarterly earnings.",
+      "source": "business"
+    },
+    {
+      "id": "42",
+      "text": "Scientists have developed a biodegradable plastic alternative that decomposes within months instead of decades.",
+      "source": "science"
+    },
+    {
+      "id": "43",
+      "text": "A new study suggests that mindfulness training can significantly reduce symptoms of anxiety and depression.",
+      "source": "health"
+    },
+    {
+      "id": "44",
+      "text": "Historians uncover ancient artifacts that provide insight into daily life in medieval Europe.",
+      "source": "history"
+    },
+    {
+      "id": "45",
+      "text": "The latest virtual reality technology allows users to experience historical events in a fully immersive environment.",
+      "source": "technology"
+    },
+    {
+      "id": "46",
+      "text": "Governments worldwide are debating new regulations on social media platforms to curb misinformation.",
+      "source": "politics"
+    },
+    {
+      "id": "47",
+      "text": "A revolutionary cancer treatment uses targeted gene therapy to improve patient survival rates.",
+      "source": "health"
+    },
+    {
+      "id": "48",
+      "text": "Archaeologists discover a lost city in the Amazon jungle, providing clues to pre-Columbian civilizations.",
+      "source": "history"
+    },
+    {
+      "id": "49",
+      "text": "Educators emphasize the importance of critical thinking in combating the spread of online misinformation.",
+      "source": "education"
+    },
+    {
+      "id": "50",
+      "text": "An indie film is gaining widespread acclaim for its unique storytelling and artistic cinematography.",
+      "source": "arts"
+    },
+    {
+      "id": "51",
+      "text": "A thrilling championship match saw an underdog team rise to victory in a stunning last-minute play.",
+      "source": "sports"
+    },
+    {
+      "id": "52",
+      "text": "Travel enthusiasts highlight hidden gems in the Balkans as top destinations for 2025.",
+      "source": "travel"
+    },
+    {
+      "id": "53",
+      "text": "A new tech startup is revolutionizing renewable energy storage with an innovative battery design.",
+      "source": "business"
+    },
+    {
+      "id": "54",
+      "text": "Marine biologists report an increase in whale populations due to international conservation efforts.",
+      "source": "science"
+    },
+    {
+      "id": "55",
+      "text": "A controversial court ruling sparks debates over privacy rights in the digital age.",
+      "source": "politics"
+    },
+    {
+      "id": "56",
+      "text": "Researchers are developing robotic limbs controlled entirely by brain signals, revolutionizing prosthetics.",
+      "source": "technology"
+    },
+    {
+      "id": "57",
+      "text": "A study finds that early exposure to music education can improve cognitive development in children.",
+      "source": "education"
+    },
+    {
+      "id": "58",
+      "text": "A new trend in sustainable fashion focuses on upcycled materials and ethical production.",
+      "source": "arts"
+    },
+    {
+      "id": "59",
+      "text": "A legendary athlete announces retirement, marking the end of an era in professional sports.",
+      "source": "sports"
+    },
+    {
+      "id": "60",
+      "text": "An investigation reveals the economic impact of mass tourism on local cultures and ecosystems.",
+      "source": "travel"
+    },
+    {
+      "id": "61",
+      "text": "A new AI-driven learning platform adapts teaching methods based on individual student needs.",
+      "source": "education"
+    },
+    {
+      "id": "62",
+      "text": "A bestselling author releases a highly anticipated sequel, delighting fans worldwide.",
+      "source": "arts"
+    },
+    {
+      "id": "63",
+      "text": "Scientists develop a new technique to extract clean drinking water from the air in arid regions.",
+      "source": "science"
+    },
+    {
+      "id": "64",
+      "text": "Advancements in genetic engineering raise ethical concerns and regulatory challenges.",
+      "source": "health"
+    },
+    {
+      "id": "65",
+      "text": "A breakthrough in quantum computing could revolutionize data encryption and processing speeds.",
+      "source": "technology"
+    },
+    {
+      "id": "66",
+      "text": "Major cities are investing in urban farming projects to promote food sustainability.",
+      "source": "travel"
+    }
+  ],
+  "sample_words": [
+    {
+      "id": 1,
+      "text": "Sky",
+      "source": "nature"
+    },
+    {
+      "id": 2,
+      "text": "Ocean",
+      "source": "nature"
+    },
+    {
+      "id": 3,
+      "text": "Forest",
+      "source": "nature"
+    },
+    {
+      "id": 4,
+      "text": "Volcano",
+      "source": "nature"
+    },
+    {
+      "id": 5,
+      "text": "Computer",
+      "source": "technology"
+    },
+    {
+      "id": 6,
+      "text": "AI",
+      "source": "technology"
+    },
+    {
+      "id": 7,
+      "text": "Startup",
+      "source": "business"
+    },
+    {
+      "id": 8,
+      "text": "Profit",
+      "source": "business"
+    },
+    {
+      "id": 9,
+      "text": "Buddhism",
+      "source": "philosophy"
+    },
+    {
+      "id": 10,
+      "text": "Happiness",
+      "source": "philosophy"
+    },
+    {
+      "id": 11,
+      "text": "Baseball",
+      "source": "sports"
+    },
+    {
+      "id": 12,
+      "text": "Marathon",
+      "source": "sports"
+    },
+    {
+      "id": 13,
+      "text": "Jazz",
+      "source": "music"
+    },
+    {
+      "id": 14,
+      "text": "Guitar",
+      "source": "music"
+    },
+    {
+      "id": 15,
+      "text": "Burger",
+      "source": "food"
+    },
+    {
+      "id": 16,
+      "text": "Sushi",
+      "source": "food"
+    },
+    {
+      "id": 17,
+      "text": "Galaxy",
+      "source": "space"
+    },
+    {
+      "id": 18,
+      "text": "Asteroid",
+      "source": "space"
+    },
+    {
+      "id": 19,
+      "text": "Blockchain",
+      "source": "technology"
+    },
+    {
+      "id": 20,
+      "text": "NFT",
+      "source": "technology"
+    },
+    {
+      "id": 21,
+      "text": "Meditation",
+      "source": "philosophy"
+    },
+    {
+      "id": 22,
+      "text": "Taoism",
+      "source": "philosophy"
+    },
+    {
+      "id": 23,
+      "text": "Basketball",
+      "source": "sports"
+    },
+    {
+      "id": 24,
+      "text": "Chess",
+      "source": "sports"
+    },
+    {
+      "id": 25,
+      "text": "Opera",
+      "source": "music"
+    },
+    {
+      "id": 26,
+      "text": "HipHop",
+      "source": "music"
+    },
+    {
+      "id": 27,
+      "text": "Pizza",
+      "source": "food"
+    },
+    {
+      "id": 28,
+      "text": "Tacos",
+      "source": "food"
+    },
+    {
+      "id": 29,
+      "text": "Branding",
+      "source": "business"
+    },
+    {
+      "id": 30,
+      "text": "Dividend",
+      "source": "business"
+    },
+    {
+      "id": 31,
+      "text": "Dadaism",
+      "source": "art"
+    },
+    {
+      "id": 32,
+      "text": "Sculpture",
+      "source": "art"
+    },
+    {
+      "id": 33,
+      "text": "Butterfly",
+      "source": "nature"
+    },
+    {
+      "id": 34,
+      "text": "VirtualReality",
+      "source": "technology"
+    },
+    {
+      "id": 35,
+      "text": "Stocks",
+      "source": "business"
+    },
+    {
+      "id": 36,
+      "text": "Stoicism",
+      "source": "philosophy"
+    },
+    {
+      "id": 37,
+      "text": "Football",
+      "source": "sports"
+    },
+    {
+      "id": 38,
+      "text": "Classical",
+      "source": "music"
+    },
+    {
+      "id": 39,
+      "text": "IceCream",
+      "source": "food"
+    },
+    {
+      "id": 40,
+      "text": "DarkMatter",
+      "source": "space"
+    },
+    {
+      "id": 41,
+      "text": "River",
+      "source": "nature"
+    },
+    {
+      "id": 42,
+      "text": "QuantumComputing",
+      "source": "technology"
+    },
+    {
+      "id": 43,
+      "text": "Partnership",
+      "source": "business"
+    },
+    {
+      "id": 44,
+      "text": "Existentialism",
+      "source": "philosophy"
+    },
+    {
+      "id": 45,
+      "text": "Cricket",
+      "source": "sports"
+    },
+    {
+      "id": 46,
+      "text": "Reggae",
+      "source": "music"
+    },
+    {
+      "id": 47,
+      "text": "Steak",
+      "source": "food"
+    },
+    {
+      "id": 48,
+      "text": "Cosmos",
+      "source": "space"
+    },
+    {
+      "id": 49,
+      "text": "Cubism",
+      "source": "art"
+    },
+    {
+      "id": 50,
+      "text": "Desert",
+      "source": "nature"
+    },
+    {
+      "id": 51,
+      "text": "Cybersecurity",
+      "source": "technology"
+    },
+    {
+      "id": 52,
+      "text": "Merger",
+      "source": "business"
+    },
+    {
+      "id": 53,
+      "text": "Ethics",
+      "source": "philosophy"
+    },
+    {
+      "id": 54,
+      "text": "Golf",
+      "source": "sports"
+    },
+    {
+      "id": 55,
+      "text": "Techno",
+      "source": "music"
+    },
+    {
+      "id": 56,
+      "text": "Chocolate",
+      "source": "food"
+    },
+    {
+      "id": 57,
+      "text": "Gravity",
+      "source": "space"
+    },
+    {
+      "id": 58,
+      "text": "Calligraphy",
+      "source": "art"
+    },
+    {
+      "id": 59,
+      "text": "Waterfall",
+      "source": "nature"
+    },
+    {
+      "id": 60,
+      "text": "InternetOfThings",
+      "source": "technology"
+    },
+    {
+      "id": 61,
+      "text": "Freelancing",
+      "source": "business"
+    },
+    {
+      "id": 62,
+      "text": "Materialism",
+      "source": "philosophy"
+    },
+    {
+      "id": 63,
+      "text": "Tennis",
+      "source": "sports"
+    },
+    {
+      "id": 64,
+      "text": "Rock",
+      "source": "music"
+    },
+    {
+      "id": 65,
+      "text": "Pasta",
+      "source": "food"
+    },
+    {
+      "id": 66,
+      "text": "Exoplanet",
+      "source": "space"
+    },
+    {
+      "id": 67,
+      "text": "Impressionism",
+      "source": "art"
+    },
+    {
+      "id": 68,
+      "text": "Hurricane",
+      "source": "nature"
+    },
+    {
+      "id": 69,
+      "text": "AugmentedReality",
+      "source": "technology"
+    },
+    {
+      "id": 70,
+      "text": "Negotiation",
+      "source": "business"
+    },
+    {
+      "id": 71,
+      "text": "Dualism",
+      "source": "philosophy"
+    },
+    {
+      "id": 72,
+      "text": "Hockey",
+      "source": "sports"
+    },
+    {
+      "id": 73,
+      "text": "Punk",
+      "source": "music"
+    },
+    {
+      "id": 74,
+      "text": "Ramen",
+      "source": "food"
+    },
+    {
+      "id": 75,
+      "text": "Wormhole",
+      "source": "space"
+    },
+    {
+      "id": 76,
+      "text": "Minimalism",
+      "source": "art"
+    },
+    {
+      "id": 77,
+      "text": "CoralReef",
+      "source": "nature"
+    },
+    {
+      "id": 78,
+      "text": "Biotech",
+      "source": "technology"
+    },
+    {
+      "id": 79,
+      "text": "ECommerce",
+      "source": "business"
+    },
+    {
+      "id": 80,
+      "text": "Rationalism",
+      "source": "philosophy"
+    },
+    {
+      "id": 81,
+      "text": "Surfing",
+      "source": "sports"
+    },
+    {
+      "id": 82,
+      "text": "Country",
+      "source": "music"
+    },
+    {
+      "id": 83,
+      "text": "Sandwich",
+      "source": "food"
+    },
+    {
+      "id": 84,
+      "text": "StarCluster",
+      "source": "space"
+    },
+    {
+      "id": 85,
+      "text": "StreetArt",
+      "source": "art"
+    },
+    {
+      "id": 86,
+      "text": "Rainbow",
+      "source": "nature"
+    },
+    {
+      "id": 87,
+      "text": "Microchips",
+      "source": "technology"
+    },
+    {
+      "id": 88,
+      "text": "Scalability",
+      "source": "business"
+    },
+    {
+      "id": 89,
+      "text": "Determinism",
+      "source": "philosophy"
+    },
+    {
+      "id": 90,
+      "text": "Snowboarding",
+      "source": "sports"
+    },
+    {
+      "id": 91,
+      "text": "Metal",
+      "source": "music"
+    },
+    {
+      "id": 92,
+      "text": "Burrito",
+      "source": "food"
+    },
+    {
+      "id": 93,
+      "text": "Cosmonautics",
+      "source": "space"
+    },
+    {
+      "id": 94,
+      "text": "Mosaic",
+      "source": "art"
+    },
+    {
+      "id": 95,
+      "text": "Ecosystem",
+      "source": "nature"
+    },
+    {
+      "id": 96,
+      "text": "CloudComputing",
+      "source": "technology"
+    },
+    {
+      "id": 97,
+      "text": "Franchise",
+      "source": "business"
+    },
+    {
+      "id": 98,
+      "text": "Phenomenology",
+      "source": "philosophy"
+    },
+    {
+      "id": 99,
+      "text": "Boxing",
+      "source": "sports"
+    },
+    {
+      "id": 100,
+      "text": "Folk",
+      "source": "music"
+    },
+    {
+      "id": 101,
+      "text": "Curry",
+      "source": "food"
+    },
+    {
+      "id": 102,
+      "text": "BlackHole",
+      "source": "space"
+    },
+    {
+      "id": 103,
+      "text": "Graffiti",
+      "source": "art"
+    }
+  ],
+  "questions": [
+    {
+      "q": "Why is the sky blue?",
+      "comm": "The question 'Why is the sky blue?' is factual and well-known, but using RAG can help fetch detailed scientific explanations and references."
+    },
+    {
+      "q": "Who is the president of the United States?",
+      "comm": "Questions about political figures and news require up-to-date information, which RAG can provide by retrieving current data."
+    },
+    {
+      "q": "Who is the CEO of ClickIT?",
+      "comm": "Questions about corporate leadership among other data may benefit from RAG to ensure that the latest company information is retrieved."
+    },
+    {
+      "q": "How do I repair a CX50 core?",
+      "comm": "Technical questions may require access to detailed repair manuals or troubleshooting guides, which is a strong case for RAG."
+    }
+  ]
+}
